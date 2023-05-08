@@ -1,0 +1,183 @@
+
+body {
+  background-color: #f1d8d8;
+  font-family: "Josefin Sans", sans-serif;
+  
+}
+
+.navbar {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  font-size: 2rem;
+}
+
+li {
+  margin: 0 3rem;
+  color: rgb(230, 47, 47);
+}
+
+li:hover {
+  color: whitesmoke;
+}
+
+.about,
+.projects,
+.skills,
+.contact {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  color: rgb(230, 47, 47);
+}
+
+.about h1,
+.projects h1,
+.skills h1,
+.contact h1 {
+  font-size: 5.5rem;
+}
+
+.about h2,
+.projects h2,
+.skills h2,
+.contact h2 {
+  font-size: 2rem;
+  margin-top: -2rem;
+}
+
+.about p {
+  line-height: 2;
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-top: -0.5rem;
+}
+
+.box {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.box h3:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.projects h3 {
+  font-size: 2rem;
+}
+
+.projects p {
+  font-size: 1.2rem;
+}
+
+.arrow {
+  max-width: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.project-name {
+  display: flex;
+  align-items: center;
+}
+
+.skill-list {
+  max-width: 100%;
+  flex-wrap: wrap;
+  margin-left: -2rem;
+}
+
+.skill-list li {
+  margin-top: 4px;
+  margin-left: 0;
+}
+
+.contact-name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  cursor: pointer !important;
+}
+
+.contact ul {
+  flex-direction: column;
+  padding: 0;
+  margin-left: -3rem;
+}
+
+.contact-name .arrow {
+  margin-left: -1.4rem;
+}
+
+
+a:hover,
+.projects a:hover {
+  letter-spacing: 1px;
+  transition: 700ms ease;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(230, 47, 47);
+  cursor: pointer;
+}
+.collage {
+  max-width: 30rem;
+}
+@media screen and (max-width: 390px) {
+
+  .about,
+  .projects,
+  .skills,
+  .contact {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    color: rgb(230, 47, 47);
+  }
+
+  .navbar li {
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+  }
+
+  .about h1,
+  .projects h1,
+  .skills h1,
+  .contact h1
+   {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+.about h2,
+.projects h3,
+.skills h2,
+.contact h2 {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+
+  .about p {
+    font-size: 1.2rem;
+  }
+
+.contact-name {
+  font-size: 15px;
+}
+
+.skill-list {
+  max-width: 6rem;
+}
+
+.skill-list li {
+  margin-bottom: 1rem;
+}
+}
